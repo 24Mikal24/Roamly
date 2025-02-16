@@ -38,5 +38,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/roamly-ui
+          folder: dist/roamly-ui/browser
           token: ${{ secrets.GH_PAT }}
