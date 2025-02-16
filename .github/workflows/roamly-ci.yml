@@ -39,3 +39,4 @@ jobs:
         with:
           branch: gh-pages
           folder: dist/roamly-ui
+          token: ${{ secrets.GH_PAT }}  # Use the personal access token
